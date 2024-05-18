@@ -1,0 +1,243 @@
+---
+title: "Indice de Preço"
+output:
+  pdf_document: default
+  html_document: default
+date: "2024-05-18"
+editor_options:
+  markdown:
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Como são formados os Índices de Preços
+
+### No geral os índices de preços acompanham uma série histórica da evolução dos preços de uma cesta de bens ou serviços.
+
+## Citarei alguns dos Principais Índices de Preços Nacional
+
+### IPCA - Índice Nacional de Preços ao Consumidor Amplo
+
+De maneira geral, o escopo metodológico do IPCA abrange os seguintes
+temas: montagem da estrutura geral de pesos; definição das bases
+cadastrais de produtos e locais; coleta de preços e método de cálculo.
+As estruturas de ponderadores são montadas utilizando-se uma organização
+de códigos em grupamentos logicamente estabelecidos de forma que fiquem
+juntas as categorias de consumo de mesma natureza, hierarquicamente
+estruturadas em grupos, subgrupos, itens e subitens. Estes últimos
+representam o nível mais desagregado para o qual se obtêm os pesos
+utilizados no cálculo dos índices de preços. Estes ponderadores retratam
+o grau de importância ou representatividade dos subitens pertencentes à
+cesta de consumo das famílias, que são constituídas a partir dos hábitos
+de consumo da população-alvo da pesquisa.
+
+A coleta de preços é realizada a partir da definição dos cadastros de
+informantes e de produtos, seguindo métodos de coleta. Na geração do
+cadastro de informantes são utilizadas duas linhas de procedimentos,
+conforme a natureza das diversas mercadorias pesquisadas. A linha
+principal consiste no levantamento de informantes através da Pesquisa de
+Locais de Compra - PLC, que define onde coletar os preços da grande
+maioria dos subitens. A segunda linha adota procedimentos específicos
+para subitens cujas peculiaridades assim o exigiam - os chamados
+subitens extra-PLC - para os quais a metodologia da PLC não é adequada,
+sendo necessário tratamento especial, ou seja, métodos específicos para
+determinar onde coletar preços. São exemplos de subitens extra-PLC o
+aluguel de moradia, empregados domésticos, condomínio, serviços públicos
+e taxas, etc.
+
+Portanto, o cadastro de informantes é essencialmente formado por
+estabelecimentos comerciais de venda de produtos e prestadores de
+serviços; domicílios alugados; empresas concessionárias responsáveis
+pela prestação de serviços; órgãos oficiais; além de alguns
+profissionais autônomos, como médicos e dentistas.
+
+Para definir o conjunto dos produtos que compõe o cadastro, considera-se
+a representatividade da totalidade dos produtos consumidos pela
+população a que o índice se refere. Sendo assim, o ponto de partida para
+a geração do cadastro de produtos é a relação dos subitens componentes
+da estrutura de pesos de cada área e de cada faixa de renda. É realizada
+uma Pesquisa de Especificação de Produtos e Serviços - PEPS que serve de
+base para a definição do cadastro de produtos, caracterizando os níveis
+de especificação utilizados na coleta de preços.
+
+Quanto ao método de cálculo, estima-se o índice do subitem através de
+algumas etapas: - primeiramente, calcula-se a média aritmética dos
+preços pesquisados em diferentes estabelecimentos comerciais para cada
+produto pesquisado no mês corrente. Através do mesmo processo, este
+preço médio é comparado com o resultado obtido no mês anterior; - em
+seguida, para se calcular o índice do subitem, aplica-se a média
+geométrica simples para agregação dos resultados dos produtos
+pertencentes ao subitem; e - por último, para todos os níveis superiores
+de agregação, emprega-se a fórmula de Laspeyres.
+
+Para aplicação desta fórmula de cálculo, os relativos de preços são
+ponderados por valores de despesas obtidos a partir da Pesquisa de
+Orçamentos Familiares. O método de cálculo para a obtenção do índice
+nacional é uma média aritmética ponderada dos dez índices metropolitanos
+mensais, além dos municípios de Goiânia, Campo Grande, Rio Branco, São
+Luís, Aracaju e Brasília. Para agregar os índices regionais, a variável
+utilizada como ponderador é o rendimento total urbano (POF 2017-2018).
+Quanto à série histórica de números-índices, a base está posicionada em
+dezembro de 1993, expressa em valor igual a cem (base = 100).
+
+### INPC - Índice Nacional de Preços ao Consumidor
+
+De maneira geral, o escopo metodológico do INPC abrange os seguintes
+temas: montagem da estrutura geral de pesos; definição das bases
+cadastrais de produtos e locais; coleta de preços e método de cálculo.
+
+As estruturas de ponderadores são montadas utilizando-se uma organização
+de códigos em grupamentos logicamente estabelecidos de forma que ficam
+juntas as categorias de consumo de mesma natureza, hierarquicamente
+estruturadas em grupos, subgrupos, itens e subitens. Estes últimos
+representam o nível mais desagregado para o qual se obtêm os pesos
+utilizados no cálculo dos índices de preços. Estes ponderadores retratam
+o grau de importância ou representatividade dos subitens pertencentes à
+cesta de consumo das famílias, que são constituídas a partir dos hábitos
+de consumo da população-alvo da pesquisa.
+
+A coleta de preços é realizada a partir da definição dos cadastros de
+informantes e de produtos, seguindo métodos de coleta. Na geração do
+cadastro de informantes são utilizadas duas linhas de procedimentos,
+conforme a natureza das diversas mercadorias pesquisadas. A linha
+principal consiste no levantamento de informantes através da Pesquisa de
+Locais de Compra - PLC, que define onde coletar os preços da grande
+maioria dos subitens. A segunda linha adota procedimentos específicos
+para subitens cujas peculiaridades assim o exigiam - os chamados
+subitens extra-PLC - para os quais a metodologia da PLC não é adequada,
+sendo necessário tratamento especial, ou seja, métodos específicos para
+determinar onde coletar preços. São exemplos de subitens extra-PLC o
+aluguel de moradia, empregados domésticos, condomínio, serviços públicos
+e taxas, etc.
+
+Portanto, o cadastro de informantes é essencialmente formado por
+estabelecimentos comerciais de venda de produtos e prestadores de
+serviços; domicílios alugados; empresas concessionárias responsáveis
+pela prestação de serviços; órgãos oficiais; além de alguns
+profissionais autônomos, como médicos e dentistas.
+
+Para definir o conjunto dos produtos que compõe o cadastro, considera-se
+a representatividade da totalidade dos produtos consumidos pela
+população a que o índice se refere. Sendo assim, o ponto de partida para
+a geração do cadastro de produtos é a relação dos subitens componentes
+da estrutura de pesos de cada área e de cada faixa de renda. É realizada
+uma Pesquisa de Especificação de Produtos e Serviços - PEPS que serve de
+base para a definição do cadastro de produtos, caracterizando os níveis
+de especificação utilizados na coleta de preços.
+
+Quanto ao método de cálculo, estima-se o índice do subitem através de
+algumas etapas: - primeiramente, calcula-se a média aritmética dos
+preços pesquisados em diferentes estabelecimentos comerciais para cada
+produto pesquisado no mês corrente. Através do mesmo processo, este
+preço médio é comparado com o resultado obtido no mês anterior - Em
+seguida, para se calcular o índice do subitem, aplica-se a média
+geométrica simples para agregação dos resultados dos produtos
+pertencentes ao subitem - Por último, para todos os níveis superiores de
+agregação, emprega-se a fórmula de Laspeyres.
+
+Para aplicação desta fórmula de cálculo, os relativos de preços são
+ponderados por valores de despesas obtidos a partir da Pesquisa de
+Orçamentos Familiares. O método de cálculo para a obtenção do índice
+nacional é uma média aritmética ponderada dos dez índices metropolitanos
+mensais, além dos municípios de Goiânia, Campo Grande, Rio Branco, São
+Luís, Aracaju e Brasília. Para agregar os índices regionais, a variável
+utilizada como ponderador é o rendimento total urbano (POF 2017-2018).
+Quanto à série histórica de números-índices, a base está posicionada em
+dezembro de 1993, expressa em valor igual a cem (base = 100).
+
+### IPP - Índice de Preços ao Produtor - Indústrias Extrativas e de Transformação
+
+Os indicadores de preços ao produtor das Indústrias Extrativas e de
+Transformação são calculados a partir de uma pesquisa específica feita
+às empresas industriais. O painel selecionado consta de 416 produtos e
+cerca de 2.000 empresas, que respondem por aproximadamente 67% da
+receita líquida de vendas de produtos e serviços industriais. Os pesos
+atribuídos a produtos, empresas e atividades estão baseados nas
+pesquisas anuais de indústria de 2016. Todavia, para seleção de produtos
+e empresas foram utilizadas as pesquisas em 2014. A partir desses 416
+produtos, a especificação de preços levou a um número de produtos IPP da
+ordem de 6.000, o que, na prática, é o número de preços (cotações)
+acompanhados mensalmente.
+
+Os dados da pesquisa são divulgados seguindo a estrutura da segunda
+versão da Classificação Nacional de Atividades Econômicas – CNAE 2.0, ou
+seja, há um resultado para o conjunto das indústrias extrativas e de
+transformação, um para o total das indústrias extrativas, um para o das
+indústrias de transformação e 23 resultados para as atividades que
+compõem as indústrias de transformação. Em outra perspectiva, os dados
+são rearranjados conforme a estrutura da Classificação por Grandes
+Categorias Econômicas — CGCE, ou seja, os produtos são considerados ou
+como bens de capital ou bens intermediários ou, por fim, bens de consumo
+(abrindo-os em duráveis e semi e não-duráveis).
+
+As especificidades dos produtos que são acompanhados são negociadas com
+as empresas a partir de uma descrição geral. Esse detalhamento exige um
+protocolo que permita registrar claramente a negociação feita entre o
+IBGE e a empresa por intermédio de um questionário. Todavia, como o
+painel é composto de 416 produtos (genéricos), no mínimo são necessários
+416 tipos de questionários distintos para a especificação,
+inviabilizando a tiragem em papel. Por isso, há um sistema que permite
+criar, digitalmente, os questionários à medida que se inclui um setor e
+seus produtos no painel. Esses questionários ficam disponíveis para
+consulta do informante. Para a especificação dos produtos, é fundamental
+defini-los em parceria com o informante.
+
+Os produtos coletados são especificados em detalhe (aspectos físicos e
+de transação), garantindo assim que sejam comparados produtos homogêneos
+ao longo do tempo. Mudanças de qualidade devem ser identificadas e
+tratadas como tal, não podendo, portanto, sinalizar aumento ou
+diminuição de preços. Em síntese: uma observação de preço é definida
+como o preço de um produto especificado, num determinado momento do
+tempo, e todos os seus termos de venda, incluindo-se os descontos e
+ofertas especiais.
+
+De acordo com as recomendações internacionais, o IPP estabeleceu como
+meta levantar os preços efetivamente praticados. Na prática, isso exclui
+preço de lista: referência para uma negociação inicial, porém não mais
+do que uma referência, pois os preços efetivamente praticados vão
+depender de uma série de fatores, que se estendem desde a fidelidade do
+cliente, o tamanho da compra, a forma de pagamento até o prazo de
+entrega. Como a definição dos produtos segue um padrão definido pelo
+questionário de especificação, nele estarão registradas todas as
+características da transação que será informada ao IBGE.
+
+As recomendações internacionais indicam várias alternativas de
+levantamento de preço. Pode-se, por exemplo, optar por coletar o preço
+de uma transação ocorrida num determinado dia do mês, por exemplo o dia
+15 (ou o primeiro dia útil próximo dele, ou ainda, como fazem os Estados
+Unidos, o preço da terça-feira da semana do dia 15). Na prática
+brasileira, uma grande parte das empresas tem dificuldade de resgatar
+essa informação em seus bancos de dados.
+
+Após a especificação, o produto entra em processo de levantamento
+periódico de preços. Há um sistema de coleta da informação, que pode ser
+consultado na Internet, no Portal do IPP. O sistema permite que, além
+das informações de preço, a empresa também possa informar mudanças
+cadastrais, entre elas a interrupção de uma linha de produção ou a
+mudança de qualidade em um determinado produto, e mudanças estruturais.
+O sistema é protegido por medida de segurança de padrão internacional, a
+mesma utilizada pelos bancos e pelo comércio eletrônico. Utiliza-se o
+índice de Jevons para o cálculo dos níveis elementares do cálculo, ou
+seja, toma-se uma média geométrica dos relativos dos preços dos produtos
+IPP. Nos níveis agregados, a fórmula de cálculo adotada é uma adaptação
+de Laspeyres - base fixa em cadeia. Para cada empresa, produto e
+atividade foram considerados seus pesos relativos. Em termos de
+divulgação são calculadas variações a partir do número-índice. Os mais
+usuais são os seguintes:
+
+· Mês contra mês anterior (M / M-1): compara o número-índice do mês de
+referência (M) contra o do mês imediatamente anterior (M-1); · Mês
+contra igual mês do ano anterior (M / M-12): compara o número-índice do
+mês de referência (M) contra o do igual mês do ano anterior (M-12); e ·
+Acumulado no Ano: compara o número-índice do mês de referência (M)
+contra o de dezembro do ano anterior.
+
+Os dados de preço do IPP são revisáveis. A revisão, necessariamente
+pequena, visa a incorporar as séries que, excepcionalmente, não estavam
+disponíveis no momento do cálculo. Os dados divulgados referentes aos
+meses do ano t são sujeitos a alterações a cada divulgação mensal. A
+última revisão se dá quando da divulgação das informações referentes ao
+mês de dezembro do ano t+1.
